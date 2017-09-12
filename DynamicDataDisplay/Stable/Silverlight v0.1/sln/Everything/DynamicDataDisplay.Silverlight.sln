@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicDataDisplaySilverLight", "..\..\src\Core\DynamicDataDisplaySilverLight\DynamicDataDisplaySilverLight.csproj", "{9964C9C0-208D-4648-84D9-DAA17B182CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3SLexamples.Web", "..\..\src\Samples\D3SLexamples_WEB\D3SLexamples.Web.csproj", "{EFE3C8DC-CDD8-449A-B46A-D8802A7ADE74}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A201D1E-1D31-42DE-8E70-C142022AD6FA} = {1A201D1E-1D31-42DE-8E70-C142022AD6FA}
+		{E74CC529-E80E-43AF-BEB0-DFA941359B31} = {E74CC529-E80E-43AF-BEB0-DFA941359B31}
+		{0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4} = {0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllergologySample", "..\..\src\Samples\AllergologySample\AllergologySample.csproj", "{5D66F719-DD02-42B6-BD40-7510B7DD8147}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{96063E05-7372-4B57-963E-EAC88AECAC1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Usage Examples", "Usage Examples", "{56312999-0D30-4F99-A7A6-808FAE7CF752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSourcesTutorial", "..\..\src\Samples\DataSourcesTutorial\DataSourcesTutorial.csproj", "{E74CC529-E80E-43AF-BEB0-DFA941359B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3SLSamplesBrowser", "..\..\src\Samples\D3SLSamplesBrowser\D3SLSamplesBrowser.csproj", "{CE106AC3-FE5C-4488-9D8D-28D3E24AB911}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A201D1E-1D31-42DE-8E70-C142022AD6FA} = {1A201D1E-1D31-42DE-8E70-C142022AD6FA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeAxisTutorial", "..\..\src\Samples\DateTimeAxisTutorial\DateTimeAxisTutorial.csproj", "{09A75768-47A8-4E9A-A348-BF272E34957F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutTutorial", "..\..\src\Samples\LayoutTutorial\LayoutTutorial.csproj", "{14550361-F572-4835-9826-F115356B12EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineGraphCustomization", "..\..\src\Samples\LineGraphCustomization\LineGraphCustomization.csproj", "{1A201D1E-1D31-42DE-8E70-C142022AD6FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegendCustomization", "..\..\src\Samples\LegendCustomization\LegendCustomization.csproj", "{0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationSample", "..\..\src\Samples\AnimationSample\AnimationSample.csproj", "{2BD32BE4-B576-4774-B1E0-188DA1A1273A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyExchange", "..\..\src\Samples\CurrencyExchange\CurrencyExchange.csproj", "{DC07E431-9058-4231-92CE-3603E01398A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{042154E6-C9FC-41CF-90B6-127E9AC91DF0}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\src\Core\DynamicDataDisplaySilverLight\DynamicDataDisplay.Silverlight.License.txt = ..\..\src\Core\DynamicDataDisplaySilverLight\DynamicDataDisplay.Silverlight.License.txt
+		..\..\src\Core\DynamicDataDisplaySilverLight\DynamicDataDisplay.Silverlight.Readme.txt = ..\..\src\Core\DynamicDataDisplaySilverLight\DynamicDataDisplay.Silverlight.Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9964C9C0-208D-4648-84D9-DAA17B182CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9964C9C0-208D-4648-84D9-DAA17B182CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9964C9C0-208D-4648-84D9-DAA17B182CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9964C9C0-208D-4648-84D9-DAA17B182CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE3C8DC-CDD8-449A-B46A-D8802A7ADE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE3C8DC-CDD8-449A-B46A-D8802A7ADE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE3C8DC-CDD8-449A-B46A-D8802A7ADE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE3C8DC-CDD8-449A-B46A-D8802A7ADE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D66F719-DD02-42B6-BD40-7510B7DD8147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D66F719-DD02-42B6-BD40-7510B7DD8147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D66F719-DD02-42B6-BD40-7510B7DD8147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D66F719-DD02-42B6-BD40-7510B7DD8147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74CC529-E80E-43AF-BEB0-DFA941359B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74CC529-E80E-43AF-BEB0-DFA941359B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74CC529-E80E-43AF-BEB0-DFA941359B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74CC529-E80E-43AF-BEB0-DFA941359B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE106AC3-FE5C-4488-9D8D-28D3E24AB911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE106AC3-FE5C-4488-9D8D-28D3E24AB911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE106AC3-FE5C-4488-9D8D-28D3E24AB911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE106AC3-FE5C-4488-9D8D-28D3E24AB911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A75768-47A8-4E9A-A348-BF272E34957F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A75768-47A8-4E9A-A348-BF272E34957F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A75768-47A8-4E9A-A348-BF272E34957F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A75768-47A8-4E9A-A348-BF272E34957F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14550361-F572-4835-9826-F115356B12EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14550361-F572-4835-9826-F115356B12EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14550361-F572-4835-9826-F115356B12EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14550361-F572-4835-9826-F115356B12EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A201D1E-1D31-42DE-8E70-C142022AD6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A201D1E-1D31-42DE-8E70-C142022AD6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A201D1E-1D31-42DE-8E70-C142022AD6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A201D1E-1D31-42DE-8E70-C142022AD6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD32BE4-B576-4774-B1E0-188DA1A1273A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD32BE4-B576-4774-B1E0-188DA1A1273A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD32BE4-B576-4774-B1E0-188DA1A1273A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD32BE4-B576-4774-B1E0-188DA1A1273A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC07E431-9058-4231-92CE-3603E01398A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC07E431-9058-4231-92CE-3603E01398A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC07E431-9058-4231-92CE-3603E01398A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC07E431-9058-4231-92CE-3603E01398A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D66F719-DD02-42B6-BD40-7510B7DD8147} = {56312999-0D30-4F99-A7A6-808FAE7CF752}
+		{2BD32BE4-B576-4774-B1E0-188DA1A1273A} = {56312999-0D30-4F99-A7A6-808FAE7CF752}
+		{E74CC529-E80E-43AF-BEB0-DFA941359B31} = {96063E05-7372-4B57-963E-EAC88AECAC1A}
+		{09A75768-47A8-4E9A-A348-BF272E34957F} = {96063E05-7372-4B57-963E-EAC88AECAC1A}
+		{14550361-F572-4835-9826-F115356B12EC} = {96063E05-7372-4B57-963E-EAC88AECAC1A}
+		{1A201D1E-1D31-42DE-8E70-C142022AD6FA} = {96063E05-7372-4B57-963E-EAC88AECAC1A}
+		{0BACDCD7-CA22-4C5F-AB27-9659B9EFD5E4} = {96063E05-7372-4B57-963E-EAC88AECAC1A}
+		{DC07E431-9058-4231-92CE-3603E01398A0} = {96063E05-7372-4B57-963E-EAC88AECAC1A}
+	EndGlobalSection
+EndGlobal

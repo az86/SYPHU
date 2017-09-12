@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="SYPHU.Views.WizardControls.AbnormalDataCheckMethod"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <GroupBox Margin="0 2 0 0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <CheckBox Grid.Row="0" Content="Dixon" IsChecked="{Binding IsDixonBtnChecked}"/>
+                <CheckBox Grid.Row="1" Content="Grubbs" IsChecked="{Binding IsGrubbBtnChecked}"/>
+                <CheckBox Grid.Row="2" Content="Romanovsky(T值)" IsChecked="{Binding IsRomanovskyBtnChecked}"/>
+                <CheckBox Grid.Row="3" Content="Hampel" IsChecked="{Binding IsHampelBtnChecked}"/>
+                <CheckBox Grid.Row="4" Content="Quartile" IsChecked="{Binding IsQuartileBtnChecked}"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

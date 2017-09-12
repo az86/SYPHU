@@ -1,0 +1,25 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SYPHU.Views" x:Class="SYPHU.Views.MainFrame" 
+             xmlns:vm="clr-namespace:SYPHU.ViewModels;assembly=SYPHU.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="418" d:DesignWidth="559">
+    <UserControl.Resources>
+        <vm:MainFrameVM x:Key="mainFrame"/>
+    </UserControl.Resources>
+    <Grid DataContext="{Binding Source={StaticResource mainFrame}}" Loaded="Grid_Loaded" DataContextChanged="Grid_DataContextChanged">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="58"/>
+            <RowDefinition/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="18"/>
+        </Grid.RowDefinitions>
+        <local:ProgramMenu DataContext="{Binding ProgramMenuVM}" x:Name="menu"/>
+        <local:Client DataContext="{Binding ClientVM}"  Grid.Row="1" x:Name="client"/>
+        <local:OutputWin DataContext="{Binding OutputWinVM}" Grid.Row="2"/>
+        <TextBlock Grid.Row="3">中国食品药品检定研究院 National Institutes for Food and Drug Control. Copy right 2013-2018. All Rights Reserved</TextBlock>
+    </Grid>
+</UserControl>

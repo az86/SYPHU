@@ -1,0 +1,9 @@
+﻿<Window x:Class="SYPHU.Views.GuideWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:guideCtls="clr-namespace:SYPHU.Views.GuideControls"
+        Title="GuideWin" Height="300" Width="300">
+    <Grid>
+        <guideCtls:Guide/>
+    </Grid>
+</Window>

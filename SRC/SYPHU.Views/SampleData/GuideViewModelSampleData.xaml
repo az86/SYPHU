@@ -1,0 +1,2 @@
+﻿<WizardControlsVM:WizardVM xmlns:vm="clr-namespace:SYPHU.ViewModels;assembly=SYPHU.ViewModels"
+             xmlns:WizardControlsVM="clr-namespace:SYPHU.ViewModels.WizardControlsVM;assembly=SYPHU.ViewModels" />
